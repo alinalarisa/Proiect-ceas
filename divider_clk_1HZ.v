@@ -6,7 +6,7 @@
 module divider_clk_1Hz(clk_in, clk_out_q, rst);
 
 parameter fin = 100000000;
-parameter fout = 1000;
+parameter fout = 1;
 
 parameter divider = fin / fout;
 parameter lenght_counter = $clog2(divider);
