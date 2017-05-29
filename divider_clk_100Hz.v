@@ -3,7 +3,7 @@
 module divider_clk_100Hz(clk_in, clk_out_q, rst);
 //modific fout din 100 in 10 000 pentru un testbench mai rapid 
 parameter fin = 100000000;
-parameter fout = 10000;
+parameter fout = 100;
 
 parameter divider = fin / fout;
 parameter lenght_counter = $clog2(divider);
